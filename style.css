@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Estilos al Aside*/
+.lateral{
+    position: fixed;
+    height: 100%;
+    width: 28%;
+    background: #70E4EF;
+    padding: 1em;
+}
+.perfil_circulo{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.perfil_foto {
+    width: 100%;
+}
+.perfil_nombre {
+    color: #fff;
+    font: bold 20px arial;
+    margin: 0px;
+    text-align: justify;
+    padding-top: 20px;
+    text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
+}
+.perfil_circulo, .perfil_nombre {
+    display: inline-block; /*Cambiar los anchos y altos */
+    vertical-align: middle;
+}
+/*Informacion */
+.informacion {
+    color: #0f6a62;
+    position: absolute;
+    bottom: 0px;
+}
+.informacion_titulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 30px;
+}
+.informacion_descripcion {
+    padding: 15px;
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: arial;
+}
+.habilidades {
+    padding: 15px;
+    text-align: center;
+}
+.habilidad{
+    color: #FFFFFF;
+    width: 50px;
+    background: #0f6a62;
+    font-size:12px;
+    display: inline-block;
+    padding: 1em; 
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+
+
+
+/*Section - Proyectos*/
+.Proyectos{
+    float:right;
+    width: 72%;
+    height: 100%;
+    padding: 50px;
+}
+h1{
+overflow: hidden;
+white-space: nowrap;
+color: #247BA0;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 30px;
+text-shadow: 2px 5px 4px rgba(69, 183, 189, 0.5);
+}
+/*Div que contiene los 2 articulos*/
+.row {
+    padding: 0px;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.proyecto{
+    color:#0C7489;
+    font-family: arial;
+    font:bold 12px ;
+    flex: 1; 
+    margin: 20px;
+    text-shadow: 2px 5px 4px rgba(14, 155, 162, 0.192);
+}
+.proyecto_image {
+    width: 300px;
+    height: 250px;
+    border-radius: 100px;
+    margin: 0px auto;
+    display: block;
+    overflow:hidden;
+    padding-bottom: 20px;
+    
+}
+.proyecto_titulo {
+    padding: 0px;
+    font-size: 20px;
+    font: bold ;
+}
+.proyecto_descripcion {
+    text-align: justify;
+    padding: 20px 0px;
+    font-family: arial;
+    color: #0C7489;
+}
+.habilidades {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+}
+li.habilidad_proyecto {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #247BA0;
+    display: inline-block;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
